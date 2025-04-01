@@ -4,12 +4,29 @@
   "description": "API for Produciton Rate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "ahmadshanawar.ansari@kcc.com",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "@azure/identity": "^4.7.0",
+    "@azure/keyvault-secrets": "^4.9.0",
+    "@okta/jwt-verifier": "^4.0.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "express-winston": "^4.2.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "node-cache": "^5.1.2",
+    "snowflake-sdk": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
