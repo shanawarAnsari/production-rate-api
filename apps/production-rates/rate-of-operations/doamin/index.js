@@ -1,6 +1,6 @@
 const appService = {
   getCategories: async (req) => {
-    let response = ["Family care", "Personal Care", "Others"]
+    let response = ["Personal Care"]
     return response;
   }
 }
